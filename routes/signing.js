@@ -19,7 +19,7 @@ router.post('/', function(req, res, next) {
         fileID = uuid.v1(),
         request_xml_string,
         xml_obj = {},
-        port = req.app.settings.port,
+        port = req.app.get('port'),
         // Finish url is the same as this method's, but GET will be used
         finish_url = req.protocol + '://' + req.hostname  + 
             ( port == 80 || port == 443 ? '' : ':'+port ) + config.finish_url_path;
