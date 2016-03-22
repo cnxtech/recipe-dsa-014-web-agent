@@ -26,6 +26,7 @@ router.post('/', function(req, res, next) {
             // from http://stackoverflow.com/a/12996059/64904
             
 console.log("Finish url = ", finish_url);
+console.log("Port = ", port, ". Environment ", process.env.PORT);
         
     xml_obj.request = {};
     xml_obj.request.Document = {
