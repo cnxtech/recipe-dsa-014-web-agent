@@ -84,7 +84,7 @@ router.get('/', function(req, res, next) {
     var qs = "sessionId=" + req.query.sessionId + "&docId=" + req.query.docId + 
                 "&returnCode=" + req.query.returnCode
         config = req.app.locals.configuration,
-        port = req.app.settings.port,
+        port = req.app.locals.port,
         url = req.protocol + '://' + req.hostname  + 
             ( port == 80 || port == 443 ? '' : ':'+port ) + config.finish_url_path +
             "/get_file?" + qs;
@@ -102,7 +102,7 @@ router.get('/get_file', function(req, res, next) {
         config = req.app.locals.configuration,
         filepath = path.join(__dirname, "../public/", "s" + docId),
         response_html,
-        port = req.app.settings.port,
+        port = req.app.locals.port,
         document_url = req.protocol + '://' + req.hostname  + 
         ( port == 80 || port == 443 ? '' : ':'+port ) + "/s" + docId;
         // from http://stackoverflow.com/a/12996059/64904
