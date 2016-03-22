@@ -24,6 +24,8 @@ router.post('/', function(req, res, next) {
         finish_url = req.protocol + '://' + req.hostname  + 
             ( port == 80 || port == 443 ? '' : ':'+port ) + config.finish_url_path;
             // from http://stackoverflow.com/a/12996059/64904
+            
+console.log("Finish url = ", finish_url);
         
     xml_obj.request = {};
     xml_obj.request.Document = {
