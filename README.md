@@ -7,7 +7,7 @@ The recipe source can be run on [Heroku](https://www.heroku.com/) using the free
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ### Get Ready
-* You will need an account on the free Developer Sandbox Docusign Signature Appliance. Contact DocuSign to receive an account. 
+* You will need a free account on the Developer Sandbox Docusign Signature Appliance. Contact DocuSign to receive an account. 
 
 ### How to do it
 * Create a free account on [Heroku](https://www.heroku.com/)
@@ -18,7 +18,7 @@ The recipe source can be run on [Heroku](https://www.heroku.com/) using the free
 ## Run the recipe on your own server
 
 ### Get Ready
-* You will need an account on the free Developer Sandbox Docusign Signature Appliance. Contact DocuSign to receive an account. 
+* You will need a free account on the Developer Sandbox Docusign Signature Appliance. Contact DocuSign to receive an account. 
 * Your server needs Node.JS 4.2.2 or later
 
 ### How to do it
