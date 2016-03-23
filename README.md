@@ -6,6 +6,12 @@ The recipe source can be run on [Heroku](https://www.heroku.com/) using the free
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
+### How to do it
+* Create a free account on [Heroku](https://www.heroku.com/)
+* Press the Heroku deploy button (above)
+* The Heroku dashboard will open. Click the *Deploy for Free* button.
+* Scroll down the page. Click the *View* button at the bottom of the page when it is enabled.
+
 ## Run the recipe on your own server
 
 ### Get Ready
